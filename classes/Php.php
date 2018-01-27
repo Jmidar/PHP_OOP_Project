@@ -1,10 +1,10 @@
 <?php
+namespace Jmidar;
+class Php{
 
-  abstract class Php{
-
-	public function details(){
-		echo "I am jmi...".__CLASS__."<br>";
-		echo "I am Jmidar".get_class($this)."<br>";
+	function __construct(){
+		echo "I Love HTML<br>";
+		
 	}
-}
+ }
 ?>

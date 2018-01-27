@@ -1,9 +1,9 @@
 <?php
+namespace Jmidar;
+   class Person{
 
-  abstract calss Person{
-
-	public function details(){
-		echo "I am jmi...".__CLASS__."<br>";
-		echo "I am Jmidar".get_class($this)."<br>";
+	function __construct(){
+		echo "I Love HTML<br>";
+		
 	}
 }

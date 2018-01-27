@@ -1,12 +1,9 @@
 <?php
-
+namespace Jmidar;
 class Java{
-
-	public function frame(){
-		echo "Antika ";
-	}
-	public function lol(){
-		echo "Roy";
+function __construct(){
+		echo "I Love HTML<br>";
+		
 	}
 }
 
