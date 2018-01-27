@@ -1,12 +1,5 @@
+<?php include "inc/header.php"; ?>
 <?php
-
-class Jmidar{
-
-	public function details(){
-		echo "I am jmi...";
-	}
-}
-
 
 
 
@@ -14,3 +7,4 @@ class Jmidar{
 
 
 ?>
+<?php include "inc/footer.php"; ?>
