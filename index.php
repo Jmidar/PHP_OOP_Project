@@ -1,18 +1,16 @@
 <?php include "inc/header.php"; ?>
 
 <?php
-/*
-spl_autoload_register(function($class){
-	include "classes/".$class.".php";
-});
-*/
-include "classes/Java.php";
-include "classes/Php.php";
-include "classes/Person.php";
-use Jmidar\Person as jmi;
-new Jmidar\Java();
-new Jmidar\Php();
-new jmi();
+
+
+$db = new mysqli("localhost","root","","oop");
+
+if(mysqli_connect_errno()){
+	echo "Error...";
+	exit();
+}else{
+	echo "Successful...";
+}
 
 
 
